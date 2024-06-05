@@ -1,0 +1,209 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #98ffff;
+    height: 1230px;
+    
+}
+
+body::-webkit-scrollbar{
+    width: 12px;
+}
+
+body::-webkit-scrollbar-track{
+    background: rgba(0, 0, 0, 0.701);
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: white;
+    border-radius: 20px;
+}
+
+@keyframes customAni {
+    from {
+      opacity: 0%;
+      translate: -90vh 0;
+    }
+  
+     to{
+        opacity: 1;
+        translate: 0 0;
+      
+    }
+  }
+
+  @keyframes customAni2 {
+    0% {
+      animation-timing-function: ease-in;
+      opacity: 0%;
+      transform: translateY(-10avh)
+    }
+  
+    100% {
+      animation-timing-function: ease-out;
+      opacity: 1;
+      transform: translateY(0px);
+    }
+  }
+
+
+
+.Menu{
+    position: fixed;
+    background-color: #d7ff9a;
+    width: 100%;
+    height: 140px;
+    display: flex;
+    justify-content: flex-end;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    z-index: 2;
+    
+}
+
+.OnuImg{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    right: 1010px;
+    z-index: -1;
+}
+
+
+.Links{
+    display: flex;
+    justify-content: space-between;
+    width: 140vh;
+    margin: 100px;
+    font-size: 20px;
+}
+
+.Links > a{
+    color: black;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+}
+
+.Links > a:hover{
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration-line: underline;
+    text-decoration-color: white;
+}
+
+
+.ImgHome{
+    display: flex;
+    width: 100%;
+    
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.Objetivosh1{
+    position: absolute;
+    font-size: 18px;
+    width: 100%;
+    margin-top: 242px;
+    text-align: center;
+    font-family: fantasy;
+    display: flex;
+    justify-content: center;
+    z-index: -2;
+    animation: customAni 3s ease 0s 1 normal none;
+    
+}
+
+.ObejtivosTxt1{
+    position: absolute;
+    margin-top: 120px;
+    width: 80%;
+    font-size: 22px;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+
+.ObjetivosImg{
+    position: absolute;
+    width: 1200px;
+    height: 520px; 
+    background-color: white;
+    margin-top: 602px;
+    display: flex;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    
+    
+    
+
+}
+
+.OdsImg{
+    padding: 20px;
+    justify-content: space-between;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    
+   
+    
+}
+
+.OdsImg img:hover {
+    transform: translateX(10px) scale(1.2);
+    transition-duration: 1s;
+    -webkit-box-shadow: 2px 2px 90px 2px rgba(0, 0, 0, 1);
+-moz-box-shadow: 2px 2px 90px 2px rgba(0, 0, 0, 1);
+box-shadow: 2px 2px 90px 2px rgba(0, 0, 0, 1);
+}
+
+
+.Rodape{
+    position: absolute;
+    background-color:  #1A0B31;
+    display: block;
+    justify-content: right;
+    color: white;
+    width: 100%;
+    box-sizing: border-box;
+    height: 225px;
+    padding: 23px;
+    margin-top: 1723px;
+    overflow: hidden;
+    text-align: right;a
+
+
+}
+
+.GitHub{
+    margin-top: 
+} 
+
+.LinkRodape > a{
+    color: white;
+    display: flex;
+    justify-content: right;
+    margin-top: 22px
+
+}
+
+.LinkRodape > a:hover{
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+
+
+
+
+
+
+
